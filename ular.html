@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game Ular</title>
+    <link rel="stylesheet" href="/assets/css/style.css">
+    </head>
+<body>
+    <!-- Judul Game -->
+    <h1>Game Ular</h1>
+    <!-- Canvas Digunakan Untuk ??? -->
+    <canvas id="gameCanvas" width="800" height="400" border="1" ></canvas>
+    
+    <!-- Ini Untuk Scorenya -->
+    <div class="infoscore">
+        <p class="text-white" > Skor : <span id="score" class=""> 0 </span></p>
+        <p id="kata">GameOver</p>
+        <!-- Jika Gameover Maka ada tombol restart game sini -->
+        <button id="click" onclick="resetGame()" class="form-control">Restart Game</button>
+    </div>
+
+
+    <script src="/assets/js/script.js"></script>
+</body>
+</html>
